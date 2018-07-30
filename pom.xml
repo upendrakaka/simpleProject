@@ -3,7 +3,7 @@
   <groupId>com.photon.Spring</groupId>
   <artifactId>SpringBoot</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  
+
   <parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
@@ -15,5 +15,9 @@
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-web</artifactId>
 	</dependency>
+	
 </dependencies>
+<build>
+<finalName>SpringDemo</finalName>
+</build>
 </project>
